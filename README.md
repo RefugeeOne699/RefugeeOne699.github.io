@@ -1,12 +1,10 @@
-# Refugee One Front End
-
+# Refugee One Portfolio Page
 SI 699 (2023 Winter)
 
 ## Techs
 
 - Vite
 - React.js (Javascript)
-- Firebase
 
 ## Relevant Docs
 
@@ -18,8 +16,6 @@ SI 699 (2023 Winter)
 ## Getting Started
 
 It is recommended to load the project using VSCode as there's settings for recommended plugins and editor. Saving the code shall trigger automatic linting and formatting.
-
-Before start, create `firebaseConfig.js` and `bingConfig.js` under `src` directory with configurations.
 
 To start development:
 
@@ -38,22 +34,4 @@ npm run lint        # Run both
 
 ## Deployment
 
-To deploy the project to firebase, you need to install `firebase-tools` and login first (make sure you have access to the firebase project):
-
-```bash
-npm install -g firebase-tools
-firebase login
-```
-
-Then each time you want to deploy:
-
-```bash
-npm run build
-firebase deploy
-```
-
-Or use the quick command:
-
-```bash
-npm run deploy  # This will build first and deploy
-```
+To deploy the project to github page, just push the code to `main` branch. The github action will automatically build and deploy the code.
