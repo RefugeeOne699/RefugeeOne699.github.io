@@ -5,7 +5,6 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 
 import AppRoot from "./App";
-import TailWindToaster from "./components/TailwindToaster";
 
 const About = lazy(async () => import("@/pages/About"));
 

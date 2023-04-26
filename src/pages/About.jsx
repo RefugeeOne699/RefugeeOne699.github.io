@@ -1,20 +1,20 @@
-import UI_Group from "../assets/UI_Group.png";
-import refugeeOneLogoSmallTransparent from "../assets/refugeeone-logo-small-transparent.png";
-import refugeeOneLogoTransparent from "../assets/refugeeone-logo-transparent.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import hifi from "../assets/hifi-small.png";
-import wireframe from "../assets/wireframe-small.png";
-import styleGuide from "../assets/style-guide.png";
 import { useState } from "react";
+import UI_Group from "../assets/UI_Group.png";
+import a1 from "../assets/a1.png";
+import a2 from "../assets/a2.png";
+import agile from "../assets/agile.png";
+import agile_process from "../assets/agile_process.png";
+import e1 from "../assets/e1.png";
+import hifi from "../assets/hifi-small.png";
 import r1 from "../assets/r1.png";
 import r2 from "../assets/r2.png";
 import r3 from "../assets/r3.png";
-import e1 from "../assets/e1.png";
-import a1 from "../assets/a1.png";
-import a2 from "../assets/a2.png";
+import refugeeOneLogoSmallTransparent from "../assets/refugeeone-logo-small-transparent.png";
+import refugeeOneLogoTransparent from "../assets/refugeeone-logo-transparent.png";
+import styleGuide from "../assets/style-guide.png";
 import techStack from "../assets/tech-stack.png";
-import agile from "../assets/agile.png";
-import agile_process from "../assets/agile_process.png";
+import wireframe from "../assets/wireframe-small.png";
 
 export default function About() {
   const [finalDesign, setFinalDesign] = useState("Client");
