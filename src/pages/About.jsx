@@ -605,7 +605,7 @@ export default function About() {
                     <div className="tabs tabs-boxed mb-4">
                       <button
                         className={
-                          "tab tab-lg text-3xl" +
+                          "tab tab-lg text-xl" +
                           (finalDesign === "Client" ? " tab-active" : "")
                         }
                         onClick={() => handleFinalDesign("Client")}
@@ -614,7 +614,7 @@ export default function About() {
                       </button>
                       <button
                         className={
-                          "tab tab-lg text-3xl" +
+                          "tab tab-lg text-xl" +
                           (finalDesign === "Employer" ? " tab-active" : "")
                         }
                         onClick={() => handleFinalDesign("Employer")}
@@ -623,7 +623,7 @@ export default function About() {
                       </button>
                       <button
                         className={
-                          "tab tab-lg text-3xl" +
+                          "tab tab-lg text-xl" +
                           (finalDesign === "Admin" ? " tab-active" : "")
                         }
                         onClick={() => handleFinalDesign("Admin")}
