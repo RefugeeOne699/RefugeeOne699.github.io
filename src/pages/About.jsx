@@ -100,10 +100,10 @@ export default function About() {
                     provides services to refugees.
                   </p>
                   <p className="text-base-content">
-                    RefugeeOne&apos;s mission is to create opportunity for refugees fleeing
-                    war, terror, and persecution to build new lives of safety, dignity,
-                    and self-reliance. RefugeeOne&apos;s goal is to provide ways to support and
-                    empower refugees to achieve financial stability.
+                    RefugeeOne&apos;s mission is to create opportunity for refugees
+                    fleeing war, terror, and persecution to build new lives of safety,
+                    dignity, and self-reliance. RefugeeOne&apos;s goal is to provide ways
+                    to support and empower refugees to achieve financial stability.
                   </p>
                 </div>
               </div>
@@ -155,9 +155,9 @@ export default function About() {
                             Repeated works
                           </p>
                           <p className="text-base-content">
-                            RefugeeOne receives many job listings, and it&apos;s a challenge to
-                            synthesize all the information in a way that is accessible to
-                            job seekers.
+                            RefugeeOne receives many job listings, and it&apos;s a
+                            challenge to synthesize all the information in a way that is
+                            accessible to job seekers.
                           </p>
                         </div>
                       </div>
@@ -398,9 +398,9 @@ export default function About() {
                 <div className="pt-6">
                   <h2 className="text-5xl font-bold mb-4">Brainstorm and Design Spec</h2>
                   <p className="text-base-content mb-2">
-                    RefugeeOne&apos;s initial request was for a mobile app to assist refugees
-                    in their job search as most refugees won&apos;t have laptops and their
-                    phones are their primary devices.
+                    RefugeeOne&apos;s initial request was for a mobile app to assist
+                    refugees in their job search as most refugees won&apos;t have laptops
+                    and their phones are their primary devices.
                   </p>
                   <p className="text-base-content mb-2">
                     However, after conducting further research into the workflow of
