@@ -5,7 +5,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import hifi from "../assets/hifi-small.png";
 import wireframe from "../assets/wireframe-small.png";
 import styleGuide from "../assets/style-guide.png";
-import ImageGallery from "react-image-gallery";
 import { useState } from "react";
 import r1 from "../assets/r1.png";
 import r2 from "../assets/r2.png";
@@ -16,39 +15,6 @@ import a2 from "../assets/a2.png";
 import techStack from "../assets/tech-stack.png";
 import agile from "../assets/agile.png";
 import agile_process from "../assets/agile_process.png";
-
-const client_images = [
-  {
-    original: r1,
-    thumbnail: r1,
-  },
-  {
-    original: r2,
-    thumbnail: r2,
-  },
-  {
-    original: r3,
-    thumbnail: r3,
-  },
-];
-
-const employer_images = [
-  {
-    original: e1,
-    thumbnail: e1,
-  },
-];
-
-const admin_images = [
-  {
-    original: a1,
-    thumbnail: a1,
-  },
-  {
-    original: a2,
-    thumbnail: a2,
-  },
-];
 
 export default function About() {
   const [finalDesign, setFinalDesign] = useState("Client");
@@ -134,9 +100,9 @@ export default function About() {
                     provides services to refugees.
                   </p>
                   <p className="text-base-content">
-                    RefugeeOne's mission is to create opportunity for refugees fleeing
+                    RefugeeOne&apos;s mission is to create opportunity for refugees fleeing
                     war, terror, and persecution to build new lives of safety, dignity,
-                    and self-reliance. RefugeeOne's goal is to provide ways to support and
+                    and self-reliance. RefugeeOne&apos;s goal is to provide ways to support and
                     empower refugees to achieve financial stability.
                   </p>
                 </div>
@@ -189,7 +155,7 @@ export default function About() {
                             Repeated works
                           </p>
                           <p className="text-base-content">
-                            RefugeeOne receives many job listings, and it's a challenge to
+                            RefugeeOne receives many job listings, and it&apos;s a challenge to
                             synthesize all the information in a way that is accessible to
                             job seekers.
                           </p>
@@ -432,8 +398,8 @@ export default function About() {
                 <div className="pt-6">
                   <h2 className="text-5xl font-bold mb-4">Brainstorm and Design Spec</h2>
                   <p className="text-base-content mb-2">
-                    RefugeeOne's initial request was for a mobile app to assist refugees
-                    in their job search as most refugees won't have laptops and their
+                    RefugeeOne&apos;s initial request was for a mobile app to assist refugees
+                    in their job search as most refugees won&apos;t have laptops and their
                     phones are their primary devices.
                   </p>
                   <p className="text-base-content mb-2">
