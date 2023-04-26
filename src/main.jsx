@@ -31,7 +31,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Suspense>
       <RouterProvider router={router} />
-      <TailWindToaster />
     </Suspense>
   </React.StrictMode>
 );
